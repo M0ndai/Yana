@@ -1,7 +1,6 @@
 # Yana
 
-Yet Another Note App.  
-A generic one too.
+Yet Another Note App.
 
 ---
 
@@ -9,7 +8,7 @@ A generic one too.
 
 Yana is a structured, filesystem-based note system.
 
-It stores notes as JSON files.
+Notes are stored as JSON files.
 
 - One file per note
 - Typed relations
@@ -17,22 +16,19 @@ It stores notes as JSON files.
 - Deterministic rebuild
 - Explicit selection
 
-Nothing more.  
 It is a simple system.
 
 ---
 
-## Design Principles
+## Design
 
-- Source of Truth = filesystem
+- Source of Truth: filesystem
 - No in-place overwrite
 - No implicit selection
-- No hidden scoring
 - No background canonization
-- Separation of generation and commit
+- Clear separation of generation and commit
 
-If something becomes canonical,
-it was explicitly approved.
+If a state becomes canonical, it was explicitly approved.
 
 ---
 
@@ -40,11 +36,11 @@ it was explicitly approved.
 
 /knowledge_nodes/*.json  
 → Validator  
-→ Projection (optional graph)  
+→ Projection (optional)  
 → API / UI  
 
-The projection is disposable.  
-The files are canonical.
+Projection is disposable.  
+Files are canonical.
 
 ---
 
@@ -53,8 +49,8 @@ The files are canonical.
 - No autonomous agents
 - No self-optimizing loops
 - No AI authority
-- No SaaS narrative
-- No “second brain”
+- No SaaS features
+- No “second brain” positioning
 
 Yana is infrastructure.
 
@@ -64,8 +60,4 @@ Yana is infrastructure.
 
 Local-first.  
 Deterministic core.  
-Intentionally average.
-
----
-
-It is just a note system.
+Experimental.
