@@ -1,6 +1,8 @@
 # Yana
+Yet Another Note App
 
-Yet Another Note App.
+This is not a note-taking app.
+It is a deterministic system for explicit knowledge transformation and decision tracking.
 
 ---
 
@@ -18,6 +20,7 @@ Notes are stored as JSON files.
 
 It is a simple system.
 
+If you are looking for a typical note app, this is not it.
 ---
 
 ## Design
